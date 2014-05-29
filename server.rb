@@ -7,12 +7,12 @@ IMAGES = [
 ]
 
 	get "/" do
-		 send_file File.expand_path('thejuliekramer.txt', settings.public_folder)
+		 send_file File.expand_path('index.html', settings.public_folder)
 	end
 
 	get "/thejuliekramer" do
 
-	send_file File.expand_path('thejuliekramer.txt', settings.public_folder)
+	send_file File.expand_path('index.html', settings.public_folder)
 
 	end
 
