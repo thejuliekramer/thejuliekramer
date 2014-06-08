@@ -5,7 +5,7 @@ require 'sinatra'
 	end
 
 	get "/fillmurray" do
-		 send_file File.expand_path('views/fillmurray/fillmurray.html', settings.public_folder)
+		 send_file File.expand_path('fillmurray.html', settings.public_folder)
 	end
 
 

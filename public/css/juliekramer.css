@@ -51,6 +51,9 @@ body  {
 
 .projects img {
 	margin-bottom: 8px;
+	border-color: white;
+	border-style: outset;
+	border-width: 1px;
 } 
 
 .social {
