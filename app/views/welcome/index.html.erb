@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>&mdash;Julie Kramer</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Julie Kramer</h1>
+
+			<h2>Web Development&nbsp;&bull;&nbsp; Web Design &nbsp;&bull;&nbsp; Miami &nbsp;&bull;&nbsp; All I Do Is Wyn(wood)</h2>
+
+			<p>As a South Florida native I can decidedly say there is no better place to live and work.</p>
+			<p>I recently escaped the publishing world to cultivate my web development skills at <a href="http://wyncode.co"> Wyncode </a>.</p>
+			</br>
+			<p><strong>Check out some of my cool projects.</strong></p>
+		</header>
+
+	<div class="projects-container">
+
+		<div id="project1">
+			
+			<a href="http://goodmeasure.io"> <%= image_tag "goodmeasure.png" %>GoodMeasure.io</a>
+		</div>
+
+		<div id="project2">
+			<a href="http://fathomless-island-8407.herokuapp.com"> <%= image_tag "fillmurray.png" %>Fill Murray</a>
+
+		</div>
+
+		<div id="project3">
+				<a href="http://pure-reaches-6806.herokuapp.com"><%= image_tag"wynforecast.png"%>Wyn Forecast</a>
+
+		</div>
+
+		<div id="project4">
+				<a href="http://whatjewishholidayistoday.com/"> <%= image_tag "whatjewishholidayistoday.png" %>WhatJewishHolidayIsItToday.com</a>
+		</div>
+
+	</div>
+		
+		<footer>
+			<div class="social">
+			<a href="https://twitter.com/thejuliekramer" class="fa fa-twitter"></a>
+			<a href="https://www.facebook.com/thejuliekramer" class="fa fa-facebook"></a>
+			<a href="https://github.com/thejuliekramer" class="fa fa-github"></a>
+			<a href="https://www.linkedin.com/pub/julie-kramer/17/813/24/" class="fa fa-linkedin"></a>
+			<a href="mailto:thejuliekramer@gmail.com" class="fa fa-envelope-o"></a>
+		</div>
+			<p> <span class="copyright">&copy;Julie Kramer.</span> </p>
+		</footer>
+<%= yield %>
+	</body>
+	</html>
+
+</body>
+</html>
+
